@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Dosis&family=Lalezar&family=Lexend+Deca:wght@100;400&family=Noto+Serif+Display&family=Poppins:wght@200;500&family=Raleway:wght@300;600&family=Tajawal:wght@300;400;700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    margin-left: 80px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.nav-link{
+     color:#555555;
+
+}
+.btn {
+    background: #3498db;
+    padding: 8px 25px;
+    margin-left: 30px;
+    margin-right: 50px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.section1{
+   padding-top: 120px;
+}
+.section1 .content{
+    padding-top: 40px;
+  margin-bottom: 220px;
+}
+.content h1{
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.content h2{
+    color: #484848;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+.content .btn1{
+    border: 2px solid #3498db;
+    color: #3498db;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 8px;
+}
+.content .btn1:hover{
+    background: #3498db;
+    color: #fff;
+}
+.section2{
+    background: #f3f9fd;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+.section2 img{
+    width: 80px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    opacity: 1;
+    
+    /* color: #484848; */
+}
+.section3 .title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+.fa-horizontal-rule{
+    color: #3498db;
+}
+ .p1{
+    color: #292727;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.p2{
+    color: #292727;
+    margin-bottom: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.section3 ul{
+    list-style: none;
+    color: #292727;
+    margin-left: -40px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+.section3 ul li{
+    line-height: 33px;
+}
+.fa-check-double{
+    color: #3498db;
+}
+.section3 .btn2{
+    border: 2px solid #3498db;
+    color: #3498db;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 8px;
+   
+}
+.section3 .btn2:hover{
+    background: #3498db;
+    color: #fff;
+}
+.section4 img{
+    width: 465px;
+}
+.fa-smile-beam{
+    font-size: 40px;
+    color: #3498db;
+    margin-right: 15px;
+    margin-left: 120px;
+}
+.section4 .num{
+    font-size: 40px;
+    font-weight: 700;
+}
+.fa-clock{
+    font-size: 40px;
+    color: #3498db;
+    margin-right: 15px;
+    margin-left: 120px;
+}
+.fa-clipboard-list-check{
+    font-size: 40px;
+    color: #3498db;
+    margin-right: 15px;
+    margin-left: 100px;
+}
+.fa-award{
+    font-size: 40px;
+    color: #3498db;
+    margin-right: 15px;
+    margin-left: 100px;
+}
+.section4{
+    background-color: #fafdff;
+}
+.section4 .p3{
+    font-size: 13px;
+    color: #484848;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 160px;
+}
+.section4 .p4{
+    font-size: 13px;
+    color: #484848;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 140px;
+}
+
+.b{
+    font-weight: 900;
+}
+.section5{
+    background-color: #fafdff;
+    padding-bottom: 70px;
+}
+.section5 .title {
+    text-align: center;
+}
+.section5 .title .ss{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+.section5 p {
+    font-size: 13px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+    margin-left: 10px;
+   
+    
+    
+}
+.section5 .box{
+    /* background-color: rgb(128, 120, 120); */
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(48, 46, 46, 0.027);
+   
+}
+.section5 .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 55px;
+    background: #3498db;
+    transition: all 0.3s ease-in-out;
+    margin-left: 20px;
+    margin-top:30px ;
+   
+}
+.section5 .icon i{
+    color: #fff;
+    font-size: 35px;
+    
+}
+.section5 h4{
+    color: #111;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    padding-left: 15px;
+    font-size: 20px;
+}
+/* ///////// */
+
+
+
+
+/* SERVICES PART1 SECTION */
+.services-p1 .title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.services-p1 .title p{
+    margin: 15px 0 0 0;
+    font-family: "Open Sans", sans-serif;
+    color: #504f4f;
+    font-size: 15px;
+}
+/* SERVICES PART2 SECTION */
+.services-p2 .c1{
+    background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.services-p2 .c2{
+    background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.services-p2 .c3{
+    background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.services-p2 .c4{
+    background-image: url("https://bootstrapmade.com/demo/templates/Vesperr/assets/img/more-services-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.services-p2{
+    margin-top: 70px;
+    color: #5e5e5e;
+}
+.services-p2 a{
+    color: #5e5e5e;
+    text-decoration: none;
+}
+.services-p2 .read-more{
+   
+    margin-top: -10px;
+    margin-left: 20px;
+
+}
+.services-p2 .row{
+    display: flex;
+}
+.services-p2 i{
+    color: #5e5e5e;
+}
+.services-p2 .row .col-lg-6{
+    display: flex;
+    width: 540px;
+    padding-bottom: 24px;
+    height: 337px;
+    padding-left: 12px;
+    border-radius: 0px;
+}
+.services-p2 .back{
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: 131px;
+    padding-bottom: 13px;
+    border-radius: 7px;
+    z-index: 10;
+}
+.services-p2 .back h5{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 7px;
+    padding-top: 16px;
+}
+.services-p2 .back p{
+    color: #5e5e5e;
+    padding: 5px 20px;
+}
+.services-p2 .card:hover .back{
+    background-color:#3498db;
+    color: #eeeeee;
+}
+.services-p2 .card:hover a{
+    color: #eeeeee;
+   }
+   .services-p2 .card:hover i{
+    color: #eeeeee;
+ }
+.services-p2 .card:hover p , a{
+    color: #eeeeee;
+}
+.services-p2 .card  a:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+.section7{
+    padding-bottom: 50px;
+}
+.section7 .title {
+    text-align: center;
+    margin-top: 50px;
+}
+.section7 .title .s{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+.section7 p{
+    font-size: 16px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+.section7 .box{
+    align-items: center;
+    padding: 20px;
+    background: #f6f6f6;
+    transition: ease-in-out 0.3s;
+    margin-bottom: 20px;
+}
+.section7 .box:hover{
+    background: #eef7fc;
+}
+.section7 .s1{
+    font-weight: 900;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    padding-left: 8px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+.section7 .s1:hover{
+    color: #3498db;
+}
+.section7 i{
+    font-size: 25px;
+}
+.testimonials{
+    height: 500px;
+    background-color: #f7fbfe;
+}
+.testimonials .title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    padding-top: 80px;
+}
+.testimonials .title .s{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+.testimonials p{
+    font-size: 16px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+.portfolio{
+    padding-bottom: 100px;
+}
+
+
+.portfolio .title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.portfolio .title .s{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+.portfolio p{
+    font-size: 16px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+.portfolio ul {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+.portfolio ul li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 15px 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    
+}
+.portfolio ul li.active {
+    color: #fff;
+    background: #3498db;
+}
+.portfolio img{
+    width: 370px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transform: scale(1,1);
+   
+}
+.portfolio .sec1:hover {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+    
+}
+.portfolio .sec1 .info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+    font-family:'Open Sans', sans-serif ;
+    overflow: hidden;
+    background-color: rgba(00, 00, 00, 0.5);
+}
+
+
+.portfolio .sec1:hover .info {
+    opacity: 1;
+    overflow: hidden;
+}
+
+tr{
+    border-bottom: 1px solid #eeeeee;
+}
+.section9{
+    padding: 60px 0;
+}
+.section9 p{
+    text-align: left;
+     font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px;
+    font-size: 16px;
+    margin-right: 150px;
+}
+.section9 h4{
+    font-size: 16px;
+    margin: 0 0 10px 32px;
+    margin-left: 100px;
+    font-weight: 900;
+}
+.section9 .title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.fa-horizontal-rule{
+    color: #3498db;
+}
+.fa-question-circle{
+    color: #8bc4ea;
+}
+/* TEAM SECTION */
+.section8 .title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.section8 .title p{
+    margin: 15px 0 0 0;
+    font-family: "Open Sans", sans-serif;
+    color: #504f4f;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section8 table{
+    margin-left: 50px;
+  
+}
+.section8 .card-title{
+    text-align: center;
+    font-size: 18px;
+    color: #222222;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 5px;
+
+}
+.section8 .card-text{
+text-align: center;
+font-family: "Open Sans", sans-serif;
+color: #aaaaaa;
+font-size: 13px;
+    font-weight: 400;
+}
+/* PRICING SECTION */
+.section11 .title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.section11 .title p{
+    margin: 20px ;
+    font-family: "Open Sans", sans-serif;
+    color: #504f4f;
+    font-size: 15px; 
+} 
+.section11 p del{
+    color: #ccc;
+}
+.section11 .title{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.section11 .container{
+    margin-bottom: 50px;
+}
+.section11 p{
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+.card-body h4{
+    font-size: 42px;
+    color: #3498db;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+   
+}
+.card-body .card-text {
+    color: #3498db;
+}
+.card-body .card-text span{
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 300;
+}
+.card-body h5{
+  margin: 30px auto;
+}
+.card-body .btn{
+margin: 20px auto;
+}
+.row .card{
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    border: 1px solid transparent;
+}
+.row .card2{
+    border: 2px solid #3498db;
+
+}
+.section13 .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section13 .title .s2{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+.section13 .part1 h3{
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #222222;
+}
+.section13 .part1 p{
+    color: #888;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+.section13 .part1 i{
+    font-size: 20px;
+    color: #3498db;
+}
+.section13 .part1 .social a{
+    border-radius: 50%;
+    border: 1px solid #3498db;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+   padding-right: 9px;
+   margin-right: 5px;
+   cursor: pointer;
+}
+.section13 a:hover{
+    background: #3498db;
+}
+.section13 .part1 a:hover i{
+    color: #fff;
+}
+.section13 .part2 i {
+    font-size: 32px;
+    color: #3498db;
+    float: left;
+    margin-right: 15px;
+}
+.section13 .part2 p{
+    font-size: 14px;
+    color: #444;
+    font-family: 'Raleway', sans-serif;
+    line-height: 28px;
+}
+.section13 .part3 input{
+    margin-bottom: 20px;
+    border:1px solid rgb(122, 115, 115) ;
+    border-color: rgba(163, 155, 155, 0.329);
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 15px;
+    width: 100%;
+}
+.section13 .part3 textarea{
+    border-color: rgba(163, 155, 155, 0.329);
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.section13 .fbtn{
+    border: none;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 13px;
+    padding-top: 10px;
+    transition: 0.4s;
+    margin-left: 150px;
+    
+}
+.section13 .fbtn:hover{ 
+    background: #285c80;
+    border: none;
+}
+.footer{
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
+    align-items: center;
+    width: 100%;
+    color: black;
+    font-size: 14px;
+    height: 15vh;
+    display: flex;
+   margin-top: 90px;
+   padding: 20px 0px;
+   padding-bottom: 30px;
+}
+
+.left{
+    display: flex;
+    width: 50%;
+    margin-top: 10px;
+    padding-left: 160px;
+    flex: 0 0 auto;
+    position:relative;
+    height: 100%;
+}
+.right{
+    align-items: center;
+    display: flex;
+    width: 50%;
+    padding-left: 100px;
+    height: 100%;
+    padding-top: 10px;
+}
+.design{
+    position: absolute;
+    font-size: 13px;
+    padding-top: 5px;
+    top:20px;
+    left:220px
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+  
+    color: #0d6efd    
+}
+.footer .left a{
+    color: #0d6efd  ;
+    text-decoration: none;
+}
+.footer .left a:hover{
+    color: #3498db;
+    cursor: pointer;
+}
+@media screen and (max-width:900){
+    *{
+        display: grid;
+        margin: 0;
+        padding: 0;
+    }
+    .section2{
+        width: 100%;
+    }
+}
